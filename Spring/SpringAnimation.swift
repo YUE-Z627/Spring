@@ -9,7 +9,7 @@
 import UIKit
 
 func spring(duration: NSTimeInterval, animations: (() -> Void)!) {
-    
+    shdjshdjwfhjwfh
     UIView.animateWithDuration(
         duration,
         delay: 0,
@@ -17,65 +17,65 @@ func spring(duration: NSTimeInterval, animations: (() -> Void)!) {
         initialSpringVelocity: 0.7,
         options: nil,
         animations: {
-        
+
             animations()
-        
+
         }, completion: { finished in
     })
 }
 
 func springEaseIn(duration: NSTimeInterval, animations: (() -> Void)!) {
-    
+
     UIView.animateWithDuration(
         duration,
         delay: 0,
         options: UIViewAnimationOptions.CurveEaseIn,
         animations: {
-            
+
             animations()
-            
+
         }, completion: { finished in
     })
 }
 
 func springEaseOut(duration: NSTimeInterval, animations: (() -> Void)!) {
-    
+
     UIView.animateWithDuration(
         duration,
         delay: 0,
         options: UIViewAnimationOptions.CurveEaseOut,
         animations: {
-            
+
             animations()
-            
+
         }, completion: { finished in
     })
 }
 
 func springEaseInOut(duration: NSTimeInterval, animations: (() -> Void)!) {
-    
+
     UIView.animateWithDuration(
         duration,
         delay: 0,
         options: UIViewAnimationOptions.CurveEaseInOut,
         animations: {
-            
+
             animations()
-            
+
         }, completion: { finished in
     })
 }
 
 func springLinear(duration: NSTimeInterval, animations: (() -> Void)!) {
-    
+
     UIView.animateWithDuration(
         duration,
         delay: 0,
         options: UIViewAnimationOptions.CurveLinear,
         animations: {
-            
+
             animations()
-            
+
         }, completion: { finished in
     })
 }
@@ -88,9 +88,9 @@ func springWithDelay(duration: NSTimeInterval, delay: NSTimeInterval, animations
         initialSpringVelocity: 0.7,
         options: nil,
         animations: {
-            
+
             animations()
-            
+
         }, completion: { finished in
     })
 }
@@ -104,9 +104,9 @@ func springWithCompletion(duration: NSTimeInterval, animations: (() -> Void)!, c
         initialSpringVelocity: 0.7,
         options: nil,
         animations: {
-        
+
             animations()
-        
+
         }, completion: { finished in
             completion(true)
     })
